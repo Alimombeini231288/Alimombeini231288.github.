@@ -1,0 +1,104 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f4f6ff;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 30px 20px 10px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #3f51b5;
+}
+
+.status-check {
+  margin-top: 10px;
+}
+
+.status-check p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.yes {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.no {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 12px;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 10px 40px;
+}
+
+.day {
+  background: white;
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  position: relative;
+  min-height: 100px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #3f51b5;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  background-color: transparent;
+}
+
+.videos {
+  font-size: 12px;
+  color: #3f51b5;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.day-number {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(0,0,0,0.1);
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+}
+
+.rest {
+  background-color: #eaefff;
+  color: #666;
+  font-weight: bold;
+}
+
+.rest .day-number {
+  color: rgba(0,0,0,0.15);
+}
